@@ -1,0 +1,28 @@
+.cardText{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    color: white;
+}
+.cardSubText{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+    font-size: 12px;
+}
+.pos-relative{
+    position:relative;
+}
+.cardBtn{
+    position: absolute;
+    padding: 5px 25px;
+    color: white;
+    background: #3da5d0;
+    right: 25px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.width-100-per{
+    width:100%;
+}

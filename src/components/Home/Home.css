@@ -1,0 +1,29 @@
+.App {
+    background:white
+  }
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  .form-box{
+    color: #666666;
+    background: white;
+    border-top: 5px solid #3da5d0;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+  }
+  .main-area{
+    padding-top:50px !important; 
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  
+  

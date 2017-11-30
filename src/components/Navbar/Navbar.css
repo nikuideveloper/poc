@@ -1,0 +1,30 @@
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: #4aaed4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover:first-child, .topnav a:hover:last-child{
+  color:#4aaed4;
+  background-color: #ffffff;
+}
+
+.topnav a.active {
+  background-color: #4aaed4;
+  color: white;
+}
+.share-btn-border{
+  border: 1px solid #4aafd4;
+}
+
+.share-btn-border.btn.focus, .share-btn-border.btn:focus, .share-btn-border.btn:hover{
+  color:#4aafd4 !important;
+}

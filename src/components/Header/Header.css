@@ -1,0 +1,28 @@
+.App-header{
+    background-color: #004164;
+}
+.anz-logo{
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+.navbar-color{
+    background-color: #004164;
+}
+.white-color{
+    color: white;
+}
+a.navbar-brand{
+    padding: 0px 20px;
+}
+a.navbar-brand img{
+    height:50px;
+}
+.navbar-default {
+    background-color: #004164;
+    border-color: #004164;
+    border: none;
+}
+.margin-0px{
+    margin:0px;
+}

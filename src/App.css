@@ -1,0 +1,8 @@
+body,html{ margin:0; width:100%; }
+html {
+  background:white
+}
+.landing{
+  background: linear-gradient(0deg, rgba(204, 214, 209, 1) 0%, rgba(204, 214, 209, 1) 0%, rgba(51, 156, 202, 1) 100%, rgba(51, 156, 202, 1) 100%);
+  height: 100%; 
+}
