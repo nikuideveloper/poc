@@ -2,7 +2,7 @@ import React from 'react'
 import './LandingTable.css';
 
 const LandingTable = () => (
-    <table className="table table-striped">
+    <table id="landingTable" className="table table-striped">
     <thead>
       <tr>
         <th>Account Type</th>

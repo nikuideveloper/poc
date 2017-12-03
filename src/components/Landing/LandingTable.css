@@ -1,12 +1,12 @@
-table > thead{
+table#landingTable > thead{
     background-color: #1391c5;
     color:white;
 }
-table>tbody>tr:nth-child(odd), .table-striped>tbody>tr:nth-of-type(odd){
+ table#landingTable>tbody>tr:nth-child(odd), .table-striped>tbody>tr:nth-of-type(odd){
     color: #000;
     background:#fff;
 }
-table>tbody>tr:nth-child(even){
+table#landingTable>tbody>tr:nth-child(even){
     color: #ffffff;
     background:#19a6df;
 }

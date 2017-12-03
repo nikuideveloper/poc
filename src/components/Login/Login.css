@@ -35,3 +35,6 @@ a.color-white:hover{
     margin-right: 8px;
     height: 16px;
 }
+.errorMsg{
+    color:red;
+}

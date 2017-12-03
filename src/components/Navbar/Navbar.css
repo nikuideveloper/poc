@@ -1,9 +1,9 @@
-.topnav {
+#landingNavbar .topnav {
   overflow: hidden;
   background-color: white;
 }
 
-.topnav a {
+#landingNavbar .topnav a {
   float: left;
   color: #4aaed4;
   text-align: center;
@@ -12,19 +12,59 @@
   font-size: 17px;
 }
 
-.topnav a:hover:first-child, .topnav a:hover:last-child{
+#landingNavbar .topnav a:hover:first-child, #landingNavbar .topnav a:hover:last-child{
   color:#4aaed4;
   background-color: #ffffff;
 }
 
-.topnav a.active {
+#landingNavbar .topnav a.active {
   background-color: #4aaed4;
   color: white;
 }
-.share-btn-border{
+#landingNavbar .share-btn-border{
+  border: 1px solid #4aafd4;
+  background:white;
+}
+
+#landingNavbar .share-btn-border.btn.focus, .share-btn-border.btn:focus, .share-btn-border.btn:hover{
+  color:#4aafd4 !important;
+}
+
+.displayNone{
+  display: none!important;
+}
+
+#homeloanNavbar .topnav {
+  overflow: hidden;
+  background-color: #0092d9;
+}
+
+#homeloanNavbar .topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#homeloanNavbar .topnav a:hover:first-child, #homeloanNavbar .topnav a:hover:last-child{
+  color:white;
+  background-color: #0092d9;
+}
+
+#homeloanNavbar .topnav a.active {
+  background-color: #4aaed4;
+  color: white;
+}
+#homeloanNavbar .share-btn-border{
   border: 1px solid #4aafd4;
 }
 
-.share-btn-border.btn.focus, .share-btn-border.btn:focus, .share-btn-border.btn:hover{
+#homeloanNavbar .share-btn-border.btn.focus, .share-btn-border.btn:focus, .share-btn-border.btn:hover{
   color:#4aafd4 !important;
+}
+
+.margin-right-10px{
+  margin-right: 10px;
 }

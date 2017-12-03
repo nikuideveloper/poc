@@ -1,0 +1,45 @@
+.jumbotron.BGcolor-white{
+    background: white;
+    color: #005681;
+}
+.containerStyle{
+    padding-right: 60px;
+    padding-left: 60px;
+    background: white;
+    color: #005681;
+}
+.containerStyle.border h4  {
+    border-bottom: 2px solid #3da5d0;
+    padding-bottom: 5px;
+
+}
+.sliderBorder{
+    border: 1px solid #e4e4e4;
+}
+.sliderRanges{
+    display:block;
+}
+.sliderRanges div{
+    display: inline;
+}
+.font14{
+    font-size: 14px !important;
+}
+.rangeslider-horizontal .rangeslider__handle{
+    outline:none;
+}
+.margin-botton-5per{
+    margin-bottom:5%;
+}
+.margin-bottom-100px{
+    margin-bottom: 100px;
+}
+.greyBorder{
+    border: 1px solid #e4e4e4;
+}
+.pd-2per{
+    padding: 2%;
+}
+.pd-b-20px{
+    padding-bottom: 20px;
+}

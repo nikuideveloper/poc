@@ -38,6 +38,9 @@
 .margin-bottom-50px{
     margin-bottom: 50px;
 }
+.padding-bottom-10per{
+    padding-bottom: 10%;
+}
 .center{
     text-align: center;
 }
@@ -45,4 +48,11 @@
     padding: 15px;
     background: #fcfcfc;
     color: #438fc2;
+}
+#landingContainer{
+     height: 100%;
+     position: relative;
+     min-height: 100%;
+     top:0;
+     bottom:0;
 }

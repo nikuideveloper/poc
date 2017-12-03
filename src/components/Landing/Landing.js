@@ -12,41 +12,26 @@ import plusIcon from '../../images/plus-icon.png';
 import HomeLoanIcon from '../../images/HomeLoan-icon.png';
 import InsuranceIcon from '../../images/Insurance-icon.png';
 import PayBillIcon from '../../images/payBill-icon.png';
-export default class Landing extends Component {
+class Landing extends Component {
     state = {
         landingCardItems: [
           { title: 'Home Loans',
             subText:'Apply now with 0% processing fees',
             icon: HomeLoanIcon,
             btnText: 'Know More',
-            classNamesList:{
-                title:'',
-                subText:'',
-                icon:'',
-                btnText:''
-            }
+            navpathname:'/Homeloan'
            },
             { title: 'Insurance',
             subText:'',
             icon: InsuranceIcon,
             btnText: 'Find More',
-            classNamesList:{
-                title:'',
-                subText:'',
-                icon:'',
-                btnText:''
-            }
+            navpathname:''
             },
             { title: 'Pay Bills/People',
             subText:'With ease and convenience',
             icon: PayBillIcon,
             btnText: 'Find More',
-            classNamesList:{
-                title:'',
-                subText:'',
-                icon:'',
-                btnText:''
-            }
+            navpathname:''
           },
         ]
       }
@@ -60,12 +45,14 @@ export default class Landing extends Component {
                       subText={item.subText}
                       key={index}
                       icon={item.icon}
-                      btnText={item.btnText} />
+                      btnText={item.btnText}
+                      navpathname = {item.navpathname}
+                      />
                   })}
                 </div>
               );
         return (
-            <div className="container-fluid">
+            <div id="landingContainer" className="container-fluid">
                <Navbar></Navbar>
                <div className="row accountRow padding-top-20px">
                     <div className="col-sm-10">
@@ -73,15 +60,15 @@ export default class Landing extends Component {
                     </div>
                     <div id="iconList" className="col-sm-2 display-flex">
                         <div>
-                            <div><img src={print}/></div>
+                            <div><img src={print} alt=""/></div>
                             <div className="font-12px">print</div>
                         </div>
                         <div>
-                            <div><img src={feedback}/></div>
+                            <div><img src={feedback} alt=""/></div>
                             <div className="font-12px">Feedback</div>
                         </div>
                         <div>
-                            <div><img src={smile}/></div>
+                            <div><img src={smile} alt=""/></div>
                             <div className="font-12px">Help</div>
                         </div>
                     </div>
@@ -90,21 +77,21 @@ export default class Landing extends Component {
                     <LandingTable></LandingTable>
                     <div className="openAccountRow margin-bottom-50px">
                         <div className="col-sm-12">
-                            <img src={plusIcon} className="height-25px"/>
+                            <img src={plusIcon} alt="" className="height-25px"/>
                             <span className="openAccountText">Open a new account</span>
                         </div>
                     </div>
                     <div>
                         <div className="col-sm-8 col-sm-push-2">
                             <div className="btn-group btn-group-justified">
-                                <a href="#" className="btn btn-primary">View Statements</a>
-                                <a href="#" className="btn btn-primary">Activate an ANZ card</a>
-                                <a href="#" className="btn btn-primary">ANZ Shield</a>
+                                <a href="javascript:void(0)" className="btn btn-primary">View Statements</a>
+                                <a href="javascript:void(0)" className="btn btn-primary">Activate an ANZ card</a>
+                                <a href="javascript:void(0)" className="btn btn-primary">ANZ Shield</a>
                             </div>
                         </div>
                     </div>
                </div> 
-               <div className="col-sm-12">
+               <div className="col-sm-12 padding-bottom-10per">
                     {LandingCardListItems}
                </div>
                          
@@ -112,3 +99,4 @@ export default class Landing extends Component {
         )
     }
 }
+export default Landing;

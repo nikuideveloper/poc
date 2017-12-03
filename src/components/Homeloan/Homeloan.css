@@ -1,0 +1,78 @@
+.jumbotron{
+    color:white;
+    background:linear-gradient(270deg, rgba(146, 188, 211, 1) 0%, rgba(146, 188, 211, 1) 0%, rgba(13, 77, 113, 1) 100%, rgba(13, 77, 113, 1) 100%)
+}
+.row>.jumbotron{
+    border-radius: 0;
+}
+.locationImages{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+.margin-bottom-15px{
+   margin-bottom: 15px; 
+}
+.margin-bottom-50px{
+    margin-bottom: 50px; 
+ }
+.buyYourHomeRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #005681;
+}
+.buyYourFirstHomeBtn{
+    background-color: rgba(0, 86, 130, 1);
+    color: white;
+    padding: 15px;
+    margin: 0px 25px;
+    cursor:pointer;
+}
+.refineYourLoanBtn{
+    padding: 15px;
+    border: 1px solid #cccccc;
+    color: #005681;
+    cursor:pointer;
+}
+.refineYourLoanBtn img{
+    height: 16px;
+    width: 10px;
+}
+.textBelowIconList > div{
+    display: flex;
+    text-align: center;
+}
+.width-25per{
+    width: 25%;
+    cursor:pointer;
+}
+.textAlignStyle{
+    margin: 0 70px 50px;
+}
+.text-center{
+    text-align: center;
+}
+.proceedBtn{
+    background:#008902;
+    display: inline-block;
+    color:white;
+    padding: 12px 40px;
+    border: 1px solid #008902;
+    cursor:pointer;
+}
+.cancelBtn{
+    background:#fff;
+    color:#005681;
+    display: inline-block;
+    padding: 12px 40px;
+    border: 1px solid grey;
+    cursor:pointer;
+}
+.margin-right-20px{
+    margin-right:20px
+}
+#homeloans{
+    margin-bottom: 100px;
+}

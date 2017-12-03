@@ -1,0 +1,61 @@
+.jumbotron.BGcolor-white{
+    background: white;
+    color: #005681;
+}
+.containerStyle{
+    padding-right: 60px;
+    padding-left: 60px;
+    background: white;
+    color: #005681;
+}
+.containerStyle.border h4  {
+    border-bottom: 2px solid #3da5d0;
+    padding-bottom: 5px;
+
+}
+.containerStyle>p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.loanSummaryBox .col-sm-12{
+    padding: 10px;
+    border:2px solid #ededed;
+}
+.width20-per{
+    width:20%;
+}
+.loanSummaryBox p {
+    font-size: 18px;
+    font-weight: 300
+}
+.loanSummaryBox div{
+    font-weight:700;
+}
+
+.completeApplicationForm>form>.col-sm-12{
+    padding: 10px;
+    border:2px solid #ededed;
+    margin-bottom: 80px;
+}
+.formHeaderBorder{
+    border-bottom: 2px solid #3da5d0;
+    padding-bottom: 12px;
+    font-size:18px;
+    margin-bottom:20px; 
+}
+.rotate-Icon{
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+form{
+    color: #676767;
+}
+.margin-right-5per{
+    margin-right: 5%;
+}
+.width100{
+    width:100%;
+}
+.margin-bottom-100px{
+    margin-bottom: 100px;
+}
